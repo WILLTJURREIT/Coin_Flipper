@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Coin_Flipper" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+
+        <!--Create my theme for the app-->
+        <item name="colorPrimary">@color/darkBlue</item>
+        <item name="colorPrimaryVariant">@color/darkBlue</item>
+        <item name="android:statusBarColor">@color/darkBlue</item>
+    </style>
+
+    <style name="Theme.Coin_Flipper" parent="Base.Theme.Coin_Flipper" />
+</resources>
