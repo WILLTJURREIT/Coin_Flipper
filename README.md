@@ -11,9 +11,11 @@ Assignment, for educational purposes only.
 - I have increased my understanding of variables, fragments, MVC and MVVM. 
 - Configuring your app to target a recent API level ensures that users can benefit from security and performance improvements.
 - Always remember to rename using refactor
+- Extracting a resource makes it easier to manage and modify things like text, images, and styles throughout your app.    **eg. android:text="@string/no_internet" in layout ".xml"**
 - 
 
-
+## Method I use to help learn:
+I each code, I want to better understand I write notes in my code and document it as I go. I understand this adds extra text content to the code, but my goal is to learn, in future code, I will minimize the text comments for efficiency. I also want to express my learnings to the instructor who will mark this assignment, to show my effort in actually learning this content. 
 
 
 ## Steps taken through the assignment: 
@@ -26,3 +28,10 @@ Assignment, for educational purposes only.
 7. In res folder, create a resource menu, then in it create a bottom navigation resource file. 
 8. Create packages and fragments (had to create a MainActivity.kt file)
 9. Create layout package, and file in it "activity_crypto.xml"
+10. Move the MainActivity.kt into ui package, and then create a package for fragments, and place into the ui package as well. 
+11. Create 4 Fragments, ArticleFragment, SearchFragment, HeadlinesFragment, FavoritesFragment.( I may alter these, or not need as many but this is important to prep)
+12. Prepare all fragments, delete any unnecessary code from the fragments to prepare them. 
+13. Design all xml layouts.
+14. Add font in xml layouts by accessing attributes in the font family, find the font I would like to add, in this case font is poppins regular.
+15. To handle the possible internet issues, we need to create an item layout for all internet errors, create a new item layout resource, itemError.xml
+16. 
