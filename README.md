@@ -12,10 +12,15 @@ Assignment, for educational purposes only.
 - Configuring your app to target a recent API level ensures that users can benefit from security and performance improvements.
 - Always remember to rename using refactor
 - Extracting a resource makes it easier to manage and modify things like text, images, and styles throughout your app.    **eg. android:text="@string/no_internet" in layout ".xml"**
-- 
+- Using **@string/description** instead of hardcoding the text allows your app to be easily translated into different languages by externalizing the text into string resources. This makes your app more flexible, maintainable, and accessible for users worldwide.
+- **I learned that to properly rename an Android project, I needed to:**
+1. Update the `applicationId` in the `build.gradle` file.
+2. Change the package declarations at the top of each file to reflect the new app name.
+
+This ensures consistency across the project structure.
 
 ## Method I use to help learn:
-I each code, I want to better understand I write notes in my code and document it as I go. I understand this adds extra text content to the code, but my goal is to learn, in future code, I will minimize the text comments for efficiency. I also want to express my learnings to the instructor who will mark this assignment, to show my effort in actually learning this content. 
+I each code, I want to better understand I write notes in my code and document it as I go. I understand this adds extra text content to the code, but my goal is to learn, in future code, I will minimize the text comments for efficiency. I also want to express my learnings to the instructor who will mark this assignment, to show my effort in actually learning this content.  
 
 
 ## Steps taken through the assignment: 
